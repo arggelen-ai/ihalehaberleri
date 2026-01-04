@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>İhale Haberleri Portalı</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+    header { background: #004080; color: white; padding: 15px; text-align: center; }
+    nav { background: #0066cc; padding: 10px; }
+    nav ul { list-style: none; margin: 0; padding: 0; display: flex; }
+    nav li { margin-right: 20px; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    main { display: flex; margin: 20px; }
+    section { flex: 3; margin-right: 20px; }
+    aside { flex: 1; background: #fff; padding: 15px; border: 1px solid #ddd; }
+    h2 { color: #004080; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    li a { text-decoration: none; color: #333; }
+    li a:hover { color: #0066cc; }
+    footer { background: #004080; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📑 İhale Haberleri Portalı</h1>
+    <p>Güncel kamu ve özel sektör ihaleleri</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="pages/kamu.html">Kamu İhaleleri</a></li>
+      <li><a href="pages/ozel.html">Özel Sektör</a></li>
+      <li><a href="pages/uluslararasi.html">Uluslararası</a></li>
+      <li><a href="pages/about.html">Hakkında</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Son İhaleler -->
+    <section>
+      <h2>Son İhaleler</h2>
+      <ul id="ihaleler">
+        <li><a href="#">Karaman Belediyesi Temizlik İhalesi – 15 Ocak 2026</a></li>
+        <li><a href="#">Sağlık Bakanlığı Tıbbi Malzeme İhalesi – 20 Ocak 2026</a></li>
+        <li><a href="#">Milli Eğitim Bakanlığı Okul İnşaatı İhalesi – 25 Ocak 2026</a></li>
+      </ul>
+    </section>
+
+    <!-- Filtreler -->
+    <aside>
+      <h2>Filtrele</h2>
+      <form>
+        <label>Sektör:</label><br>
+        <select>
+          <option>Tümü</option>
+          <option>İnşaat</option>
+          <option>Sağlık</option>
+          <option>Ulaşım</option>
+        </select><br><br>
+
+        <label>Tarih:</label><br>
+        <input type="date"><br><br>
+
+        <button type="submit">Ara</button>
+      </form>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 İhale Haberleri Portalı | Abdurrezak</p>
+  </footer>
+</body><link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</html>
