@@ -1,0 +1,74 @@
+/* Görselin taşmasını engellemek için */
+.card-image {
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+/* Kartın üzerine gelince görseli büyüt */
+.ihale-card:hover .card-image {
+    transform: scale(1.1);
+    filter: brightness(0.9); /* Hafifçe karartarak metni öne çıkarır */
+}
+/* Bilgileri 2 sütunlu düzenli hale getirir */
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.info-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #505f79;
+    font-size: 0.85rem;
+}
+
+.info-row i {
+    color: var(--primary);
+    width: 16px;
+}
+
+/* Butonun Link Gibi Davranması İçin */
+.btn-detay {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s transform ease;
+}
+
+.btn-detay:hover {
+    transform: translateY(-3px) scale(1.02);
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Bilgileri yan yana iki sütun yapar */
+    gap: 10px;
+    margin: 15px 0;
+}
+.info-row { font-size: 0.85rem; display: flex; align-items: center; gap: 8px; color: #505f79; }
+.info-row i { color: var(--primary); width: 15px; }
+.info-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Bilgileri yan yana iki sütun yapar */
+    gap: 12px;
+    margin: 18px 0;
+    border-top: 1px solid #f0f2f5;
+    padding-top: 15px;
+}
+.info-row { font-size: 0.85rem; display: flex; align-items: center; gap: 8px; color: #4a5568; }
+.info-row i { color: var(--primary); width: 16px; text-align: center; }
+
+.btn-detay {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s all ease;
+}

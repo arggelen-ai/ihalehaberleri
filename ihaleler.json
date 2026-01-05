@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "baslik": "Karaman Belediyesi Yeni Hizmet Binası İnşaatı",
+        "sektor": "insaat",
+        "kurum": "TOKİ / Karaman Bld.",
+        "konum": "Karaman / Merkez",
+        "bedel": "120.500.000 TL",
+        "tarih": "15 Ocak 2026",
+        "link": "https://ekap.kik.gov.tr",
+        "durum": "open",
+        "durumMetni": "Başvuruya Açık"
+    },
+    {
+        "id": 2,
+        "baslik": "Şehir Hastanesi Genel Temizlik Hizmet Alımı",
+        "sektor": "hizmet",
+        "kurum": "Sağlık Bakanlığı",
+        "konum": "Konya / Selçuklu",
+        "bedel": "12.200.000 TL",
+        "tarih": "20 Ocak 2026",
+        "link": "https://ekap.kik.gov.tr",
+        "durum": "closing",
+        "durumMetni": "Son 3 Gün"
+    },
+    {
+        "id": 3,
+        "baslik": "Üniversite Laboratuvar Cihazları Alımı",
+        "sektor": "teknoloji",
+        "kurum": "KMÜ Rektörlüğü",
+        "konum": "Karaman / KMÜ Yerleşkesi",
+        "bedel": "4.750.000 TL",
+        "tarih": "25 Ocak 2026",
+        "link": "https://ekap.kik.gov.tr",
+        "durum": "open",
+        "durumMetni": "Yeni İlan"
+    }
+]
